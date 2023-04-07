@@ -41,8 +41,14 @@ img {
     background: #fff;
     padding: 2.5rem;
     border-radius: 1.5rem;
+    transition: background .4s;
+    
 }
 
+.container .qrbox:hover {
+    cursor: help;
+    background: #f3c9c9;
+}
 
 .text {
     text-align: center;
